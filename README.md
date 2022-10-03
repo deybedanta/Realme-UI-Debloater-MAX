@@ -26,7 +26,7 @@ And guess what, your phone could properly function without their existence and t
 
 - A Realme device with USB debugging on*
 - A computer running Windows/Linux/Mac**
-- A working brain (Not too big, not too smol)
+- A working brain (Not too big, not too smol) </br>
 
 * [How do I turn on USB Debugging?](/Turning_on_usb_debugging.md)
 
