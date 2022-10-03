@@ -24,11 +24,11 @@ And guess what, your phone could properly function without their existence and t
 
 ## Requirements 
 
-- A Realme device with USB debugging on*
-- A computer running Windows/Linux/Mac**
+- A Realme device with USB debugging on
+- A computer running Windows/Linux/Mac
 - A working brain (Not too big, not too smol) </br>
 
-* [How do I turn on USB Debugging?](/Turning_on_usb_debugging.md)
+** [How do I turn on USB Debugging?](/Turning_on_usb_debugging.md)
 
 ** _If you don't have access to a computer, you can also use an Android device with [magisk adb binaries](https://sourceforge.net/projects/magiskfiles/files/module-uploads/adb-ndk-103916.zip/download) installed and an OTG Cable (But in that case, the other device should have root access via magisk)_
 
