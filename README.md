@@ -1,57 +1,34 @@
-<p align="center">
-    <a href="https://github.com/realKarthikNair/realme-ui-debloater/stargazers" alt="Stars">
-        <img src="https://img.shields.io/github/stars/realKarthikNair/realme-ui-debloater.svg?style=for-the-badge" /></a>
-    <a href="https://github.com/realKarthikNair/realme-ui-debloater/issues" alt="Issues">
-        <img src="https://img.shields.io/github/issues/realKarthikNair/realme-ui-debloater.svg?style=for-the-badge" /></a>
-    <a href="https://github.com/realKarthikNair/realme-ui-debloater/network/members" alt="Forks">
-        <img src="https://img.shields.io/github/forks/realKarthikNair/realme-ui-debloater.svg?style=for-the-badge" /></a>
-</p>
-
-<div align="center">
-
-<h2 align="center">realme-ui-debloater</h2>
+<h2 align="center">Realme UI Debloater MAX</h2>
   <p align="center">
- <h3>Remove useless apps from realme UI with ease</h3>
+ <h3>Remove useless apps from realme UI with ease, but with extra improvements!</h3>
     <br />
 </div>
 
-<p align="center">
-    <a href="#how-to-use" alt="Installation">
-        <img src="https://img.shields.io/badge/Installation-%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-brightgreen" /></a>
-    <a href="https://github.com/realKarthikNair/realme-ui-debloater/issues/new/choose" alt="Report a Bug">
-        <img src="https://img.shields.io/badge/%20%20Report%20a%20Bug-%F0%9F%90%9E-orange" /></a>
-    <a href="https://github.com/realKarthikNair/realme-ui-debloater/issues/new/choose" alt="Request a Feature">
-        <img src="https://img.shields.io/badge/Request%20a%20Feature-%F0%9F%93%88-yellowgreen" /></a>
-    <a href="https://coindrop.to/realkarthiknair" alt="Donate">
-        <img src="https://img.shields.io/badge/donate-%F0%9F%92%B0-lightgrey" /></a>
-</p>
 
 ## Introduction
 
 Realme UI is honestly one of the smoothest custom Android skins out there in the wild.<br>
 But Bloatware applications that ship out of box spoil the experience. <br>
-You may never use apps like "Hot apps", "realme pay", "heytap cloud", "phone manager", etc. <br>
-And guess what, your phone could properly function without their existence and they could easily be removed in one click too !<br>
+You may never use apps like "Hot apps", "Realme Pay", "heytap cloud", "Phone Manager", etc. <br>
+And guess what, your phone could properly function without their existence and they could easily be removed in one click too!<br>
 **So let the magic begin!**<br>
-No complicated steps, no risk, no root required, entirely safe<br>
+(Don't worry, there's no complicated steps, no risk, no root required and it is entirely safe.)<br>
 
 ## Features
 
 - One Click Debloat or Revert
 - No previous technical knowledge required 
-- Supports Windows,MacOS,Linux and BSD
-- adb binaries included* so saves time
-
-*_except for BSD users. I'm sorry about that_
+- Supports Windows, MacOS, Linux (for BSD, use Karthik's debloater; I don't know how to code for BSD.)
+- `adb` binaries included* so saves time
 
 ## Requirements 
 
 - A Realme device with USB debugging on*
 - A computer running Windows/Linux/Mac**
-- A Working Brain
+- A working brain (Not too big, not too smol)
 
 
-*[see how to turn on USB Debugging](/Turning_on_usb_debugging.md)
+*[How do I turn on USB Debugging?](/Turning_on_usb_debugging.md)
 
 **_If you don't have access to a computer, you can also use an Android device with [magisk adb binaries](https://sourceforge.net/projects/magiskfiles/files/module-uploads/adb-ndk-103916.zip/download) installed and an OTG Cable (But in that case, the other device should have root access via magisk)_
 
@@ -73,11 +50,9 @@ No complicated steps, no risk, no root required, entirely safe<br>
 
 - On Linux and MacOS, right click on the unzipped folder, open it in terminal and run `./debloat.sh` 
 
-- On BSD, first compile adb from [here](https://github.com/neelchauhan/freebsd-android-tools) rest use the same method as MacOS/Linux but replace the adb binary/path in command accordingly for BSD
+**There would be promopt showing up on phone, tap "OK" on that. If there are any checkboxes, enable it if you want to use this later too.**
 
-**There would be promopt showing up on phone, tap "ok" on that**
-
-### **2. Revert everything incase of any issues**
+### **2. Revert everything (in case of any issues)**
 
 > You wont be facing any problems after debloating your device in ideal cases. The below steps exists for worst-case scenarios and for documentation purposes.
 
@@ -85,14 +60,13 @@ No complicated steps, no risk, no root required, entirely safe<br>
 
 - On Linux and MacOS, right click on the unzipped folder, open it in terminal and run `./undo_all_actions.sh`
 
-- On BSD, first compile adb from [here](https://github.com/neelchauhan/freebsd-android-tools) rest use the same method as MacOS/Linux but replace the adb binary/path in command accordingly for BSD
+**There would be promopt showing up on phone, tap "OK" on that. If you had already enabled the checkbox (as stated earlier), this should not appear once again.**
 
-**There would be promopt showing up on phone, tap "ok" on that**
+### That's it! Enjoy!
 
-### That's it ! Enjoy !
+## Footnotes
 
-## footnotes
-
+- This Realme UI Debloater MAX is a fork of realKarthikNair's Realme UI Debloater. Most, if not all, credits go to them!
 - To manually reinstall an uninstalled package for user 0, use the command  
 `"adb shell pm install-existing <package name>"`  
 OR  
@@ -101,23 +75,12 @@ OR
 - To manually enable a disabled package  
 `"adb shell pm enable <package name>"`  
 
-- There WON'T be any issues updating your phone after debloating as far as i noticed on my personal as well testers' devices
+- There WON'T be any issues updating your phone after debloating as far as I've noticed on my personal as well testers' devices. (Karthik did the tests, I did not.)
 
-- After every software update, run debloater again since some bloatware apps are reinstalled 
+- After every software update, run debloater again since some bloatware apps could be reinstalled. 
 
 
 >Made with Love™ ❤️ <br>
->by Karthik Nair 
-
-## How to reach me? 
-
-<p align="left">
-    <a href="https://www.instagram.com/karthiknair.sh" alt="instagram">
-        <img src="https://img.shields.io/badge/Instagram-%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-yellowgreen" /></a>
-    <a href="https://www.telegram.me/realkarthiknair" alt="Telegram">
-        <img src="https://img.shields.io/badge/Telegram-%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-orange" /></a>
-    <a href="https://www.twitter.com/realkarthiknair" alt="twitter">
-        <img src="https://img.shields.io/badge/Twitter-%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-orange" /></a>
-</p>
+>by Karthik Nair (and Bedanta Dey!) 
 
 
