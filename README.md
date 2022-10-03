@@ -28,6 +28,15 @@ And guess what, your phone could properly function without their existence and t
 - A computer running Windows/Linux/Mac**
 - A working brain (Not too big, not too smol)
 
+## Alternatives
+
+- YouTube alternative: YouTube Revanced, YouTube Vanced Extended
+- Calculator alternative: Google Calculator
+- Messages alternative: QKSMS
+- Browser alternative: Brave, Firefox, Adblock Browser
+- Google Keep Notes alterative: Notion, OneNote, EasyNotes
+- Realme UI Launcher alternative: Niagara Launcher, Nova Launcher
+
 
 * [How do I turn on USB Debugging?](/Turning_on_usb_debugging.md)
 
