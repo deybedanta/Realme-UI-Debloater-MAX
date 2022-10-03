@@ -28,6 +28,10 @@ And guess what, your phone could properly function without their existence and t
 - A computer running Windows/Linux/Mac**
 - A working brain (Not too big, not too smol)
 
+* [How do I turn on USB Debugging?](/Turning_on_usb_debugging.md)
+
+** _If you don't have access to a computer, you can also use an Android device with [magisk adb binaries](https://sourceforge.net/projects/magiskfiles/files/module-uploads/adb-ndk-103916.zip/download) installed and an OTG Cable (But in that case, the other device should have root access via magisk)_
+
 ## Alternatives
 
 - YouTube alternative: YouTube Revanced, YouTube Vanced Extended
@@ -36,11 +40,6 @@ And guess what, your phone could properly function without their existence and t
 - Browser alternative: Brave, Firefox, Adblock Browser
 - Google Keep Notes alterative: Notion, OneNote, EasyNotes
 - Realme UI Launcher alternative: Niagara Launcher, Nova Launcher
-
-
-* [How do I turn on USB Debugging?](/Turning_on_usb_debugging.md)
-
-** _If you don't have access to a computer, you can also use an Android device with [magisk adb binaries](https://sourceforge.net/projects/magiskfiles/files/module-uploads/adb-ndk-103916.zip/download) installed and an OTG Cable (But in that case, the other device should have root access via magisk)_
 
 ## **How to Use**
 
