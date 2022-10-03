@@ -1,6 +1,7 @@
 <h2 align="center">Realme UI Debloater MAX</h2>
   <p align="center">
  <h3>Remove useless apps from realme UI with ease, but with extra improvements!</h3>
+ <p align="center">
     <br />
 </div>
 
@@ -16,7 +17,7 @@ And guess what, your phone could properly function without their existence and t
 
 ## Features
 
-- One Click Debloat or Revert
+- One-click debloat or revert
 - No previous technical knowledge required 
 - Supports Windows, MacOS, Linux (for BSD, use Karthik's debloater; I don't know how to code for BSD.)
 - `adb` binaries included* so saves time
@@ -28,15 +29,15 @@ And guess what, your phone could properly function without their existence and t
 - A working brain (Not too big, not too smol)
 
 
-*[How do I turn on USB Debugging?](/Turning_on_usb_debugging.md)
+* [How do I turn on USB Debugging?](/Turning_on_usb_debugging.md)
 
-**_If you don't have access to a computer, you can also use an Android device with [magisk adb binaries](https://sourceforge.net/projects/magiskfiles/files/module-uploads/adb-ndk-103916.zip/download) installed and an OTG Cable (But in that case, the other device should have root access via magisk)_
+** _If you don't have access to a computer, you can also use an Android device with [magisk adb binaries](https://sourceforge.net/projects/magiskfiles/files/module-uploads/adb-ndk-103916.zip/download) installed and an OTG Cable (But in that case, the other device should have root access via magisk)_
 
 ## **How to Use**
 
-> You DONT NEED to root your device to use this script and debloat it
+> You DON'T NEED to root your device to use this script and debloat it. However, for some apps you might need to root your device. (Not compulsory, of course.)
 
-### Prerequisites
+### Pre-requisites
 
 - Get the **latest** appropriate zip file for your OS from [releases](https://github.com/realKarthikNair/realme-ui-debloater/releases)
 
