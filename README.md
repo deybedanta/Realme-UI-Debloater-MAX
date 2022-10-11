@@ -63,13 +63,13 @@ And guess what, your phone could properly function without their existence and t
 
 ### **2. Revert everything (in case of any issues)**
 
-> You wont be facing any problems after debloating your device in ideal cases. The below steps exists for worst-case scenarios and for documentation purposes.
+> You won't be facing any problems after debloating your device in ideal cases. The below steps exists for worst-case scenarios and for documentation purposes.
 
 - On windows, head over to the unzipped folder and simply double click on the **Undo_all_actions.bat** file 
 
 - On Linux and MacOS, right click on the unzipped folder, open it in terminal and run `./undo_all_actions.sh`
 
-**There would be promopt showing up on phone, tap "OK" on that. If you had already enabled the checkbox (as stated earlier), this should not appear once again.**
+**There would be prompt showing up on phone, tap "OK" on that. If you had already enabled the checkbox (as stated earlier), this should not appear once again.**
 
 ### That's it! Enjoy!
 
